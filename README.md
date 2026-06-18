@@ -1,39 +1,117 @@
-💈 Assistente Inteligente para Agendamentos de Barbearia
+## 💈 Assistente Inteligente de Agendamentos para Barbearias
 
-Automação de atendimento desenvolvida para otimizar o processo de agendamento em uma barbearia, utilizando n8n, integração com APIs e Inteligência Artificial para responder clientes de forma automática e organizada.
+Sistema de Automação com IA para Agendamentos
 
-🚀 Funcionalidades
-Atendimento automatizado de clientes
-Interpretação de mensagens com IA
-Agendamento automático de horários
-Integração com APIs e Webhooks
-Organização de dados de atendimento
-🧠 Tecnologias utilizadas
-n8n
+Sistema de automação inteligente desenvolvido para atender clientes e gerenciar agendamentos de barbearias de forma automática utilizando n8n, APIs e Inteligência Artificial.
+
+O objetivo é reduzir trabalho manual, agilizar respostas e criar uma experiência de atendimento fluida e automatizada.
+
+## ✨ Destaques
+
+Atendimento automático de clientes 24/7
+
+Agendamento de horários sem intervenção humana
+
+Interpretação de mensagens com Inteligência Artificial
+
+Fluxo 100% automatizado com n8n
+
+Integração com WhatsApp via webhooks
+
+## 🚀 O que este sistema faz
+
+Este sistema funciona como um assistente virtual para barbearias, conduzindo o atendimento do cliente desde a primeira mensagem até a confirmação do agendamento.
+
+A IA interpreta o pedido, verifica horários disponíveis e realiza a marcação automaticamente.
+
+## 🔄 Arquitetura do sistema
+
+Canal de mensagem (WhatsApp / Chat)
+
+→ Webhook (n8n)
+
+→ IA (interpretação da mensagem e intenção)
+
+→ Verificação de disponibilidade (agenda/API)
+
+→ Criação do agendamento
+
+→ Confirmação para o cliente
+
+## 🧠 Funcionalidades principais
+
+Automação completa de agendamentos
+
+Interpretação de linguagem natural com IA
+
+Lógica inteligente de horários
+
+Integração com APIs e webhooks
+
+Fluxos automatizados no n8n
+
+Respostas em tempo real
+
+## 🛠️ Tecnologias utilizadas
+
+n8n (automação de workflows)
+
 APIs REST
-Webhooks
-Integração com IA
-Automação de workflows
-🔄 Como funciona
-O cliente solicita um agendamento
-A mensagem é recebida via webhook
-O n8n processa a solicitação
-A IA interpreta o pedido e gera uma resposta
-O sistema verifica disponibilidade
-O agendamento é confirmado automaticamente
-🎯 Objetivo
 
-Reduzir o tempo de resposta no atendimento, automatizar tarefas manuais e melhorar a organização dos agendamentos da barbearia.
+Webhooks
+
+Modelos de Inteligência Artificial (LLMs)
+
+Integrações com agenda/calendário
+
+## ⚙️ Como funciona
+
+Cliente envia uma mensagem solicitando agendamento
+
+O webhook recebe a mensagem no n8n
+
+A IA interpreta a intenção do cliente
+
+O sistema verifica horários disponíveis
+
+O agendamento é criado automaticamente
+
+O cliente recebe a confirmação
+
+## 🎯 Impacto no negócio
+
+Redução do trabalho manual da recepção
+
+Menos erros em agendamentos
+
+Atendimento mais rápido
+
+Aumento na taxa de conversão de agendamentos
+
+Escalabilidade sem necessidade de equipe adicional
 
 ## 📸 Demonstração
 
-### 🔧 Fluxo de automação no n8n
-![Fluxo n8n](./assets/fluxo-n8n.png)
+🔧 Fluxo de automação no n8n
 
-O fluxo acima demonstra a automação completa de atendimento, desde o recebimento da mensagem até a confirmação do agendamento.
+Visão do fluxo completo de automação, desde o recebimento da mensagem até a confirmação do agendamento.
 
-Na segunda imagem, é possível ver a interação real com o cliente, onde a IA conduz o atendimento de forma natural e direciona o agendamento.
+💬 Atendimento automatizado
 
-### 💬 Atendimento automatizado via WhatsApp
-![WhatsApp](./assets/whatsapp-demo.jpeg)
+Exemplo real da IA conduzindo a conversa com o cliente e finalizando o agendamento automaticamente.
 
+## 💼 Para quem é este sistema
+
+Barbearias
+
+Salões de beleza
+
+Clínicas
+
+Negócios baseados em agendamento
+
+Pequenas empresas que querem automatizar atendimento
+
+## 📌 Resumo do projeto
+
+Este projeto demonstra como IA + automação podem substituir tarefas manuais repetitivas e transformar o processo de agendamento em algo totalmente automático, rápido e escalável.
