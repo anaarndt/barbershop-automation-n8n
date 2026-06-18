@@ -92,11 +92,17 @@ Escalabilidade sem necessidade de equipe adicional
 
 ## 📸 Demonstração
 
-🔧 Fluxo de automação no n8n
+### 🔧 Fluxo de automação no n8n  
+
+![Fluxo de automação](./assets/barbearia.png)
 
 Visão do fluxo completo de automação, desde o recebimento da mensagem até a confirmação do agendamento.
 
-💬 Atendimento automatizado
+---
+
+### 💬 Atendimento automatizado  
+
+![Atendimento automatizado](./assets/conversa-teste.jpeg)
 
 Exemplo real da IA conduzindo a conversa com o cliente e finalizando o agendamento automaticamente.
 
