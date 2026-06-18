@@ -102,7 +102,7 @@ Visão do fluxo completo de automação, desde o recebimento da mensagem até a 
 
 ### 💬 Atendimento automatizado  
 
-![Atendimento automatizado](./assets/conversa-teste.jpeg)
+![Atendimento automatizado](./assets/teste_de_mensagem.png)
 
 Exemplo real da IA conduzindo a conversa com o cliente e finalizando o agendamento automaticamente.
 
